@@ -10,8 +10,7 @@ import java.util.List;
 // 유저 정보
 @Entity
 @Table(name = "MEMBER")
-@Getter
-@Setter
+@Getter @Setter
 public class Member {
     @Id
     @GeneratedValue

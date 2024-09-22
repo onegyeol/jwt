@@ -2,6 +2,7 @@ package SpringJWT.study.entity;
 
 
 import SpringJWT.study.dto.CustomUserInfoDto;
+import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
